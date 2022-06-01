@@ -1,12 +1,14 @@
 import Intro from './components/Intro';
-import About from './components/About'
+import About from './components/About';
+import Clock from './components/Clock';
 
 function App() {
   return (
-
     <div className="App">
-      <Intro nome="Lara"  cargo2="Instructor"/>  
-      <About/>    
+      <Clock/>
+      <Intro nome="Lara"/>
+      <About/>
+
     </div>
   );
 }
