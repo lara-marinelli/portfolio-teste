@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 function FormatedDate(props){
-    return <p>It is {props.date.toLocaleTimeString()}.</p>
+    return <h2 style={{color:'#FFFF'}}>It is {props.date.toLocaleTimeString()}.</h2>
 }
 
 
